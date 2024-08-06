@@ -1,0 +1,29 @@
+.character-detail {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.character-detail h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.character-detail p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.character-detail h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.character-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+.character-detail li {
+    margin: 5px 0;
+    font-size: 1.1em;
+}

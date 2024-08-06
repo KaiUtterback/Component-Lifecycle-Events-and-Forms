@@ -1,0 +1,31 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.character-item {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.character-item:hover {
+    transform: scale(1.05);
+}
+
+.character-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.character-item h3 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
